@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Голос врача — озвучка</title>
+<link rel="stylesheet" href="voice/voice.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1><span class="dot"></span><span id="title">Голос врача</span></h1>
+    <p class="sub" id="subtitle">официальный, строгий, в годах, 66 лет</p>
+    <p class="attrs" id="attrs"></p>
+  </header>
+
+  <nav>
+    <a href="golos-malchika.html">Голос мальчика</a>
+    <a href="golos-mamy.html">Голос мамы</a>
+    <a href="golos-vracha.html" aria-current="page">Голос врача</a>
+    <a href="golos-pauka.html">Голос паука</a>
+  </nav>
+
+  <div class="bar">
+    <button type="button" class="primary" id="all">Проиграть все фразы</button>
+    <button type="button" id="stop">Стоп</button>
+  </div>
+
+  <div class="list" id="list"></div>
+
+  <footer>
+    Фразы озвучены заранее офлайн-движком VoiceEngine из папки <code>shorts</code>
+    и лежат в <code>audio/doctor/</code> (8 файлов .wav, 48 кГц).
+  </footer>
+</div>
+
+<script src="voice/voice.js"></script>
+<script>
+initVoicePage({
+  "title": "Голос врача",
+  "subtitle": "официальный, строгий, в годах, 66 лет",
+  "attrs": "м, 66, m1, спокойно, speed=0.94, pitch=0.97",
+  "accent": "#9ad7a0",
+  "lines": [
+    {
+      "text": "Так. Показывайте руку. Не дёргайтесь, молодой человек.",
+      "file": "audio/doctor/doc-01.wav",
+      "tone": null,
+      "duration": 5.76
+    },
+    {
+      "text": "Укус в области указательного пальца, отёк умеренный.",
+      "file": "audio/doctor/doc-02.wav",
+      "tone": null,
+      "duration": 4.77
+    },
+    {
+      "text": "Паука в банке принесли правильно. Это каракурт.",
+      "file": "audio/doctor/doc-03.wav",
+      "tone": null,
+      "duration": 4.36
+    },
+    {
+      "text": "Антигистаминное сейчас, наблюдение шесть часов. Без самодеятельности.",
+      "file": "audio/doctor/doc-04.wav",
+      "tone": null,
+      "duration": 6.86
+    },
+    {
+      "text": "Мать остаётся с ребёнком. Так положено.",
+      "file": "audio/doctor/doc-05.wav",
+      "tone": "сердито",
+      "duration": 3.24
+    },
+    {
+      "text": "Температуру мерить каждый час. Записывать.",
+      "file": "audio/doctor/doc-06.wav",
+      "tone": null,
+      "duration": 4.02
+    },
+    {
+      "text": "Состояние стабильное. Угрозы жизни нет.",
+      "file": "audio/doctor/doc-07.wav",
+      "tone": null,
+      "duration": 4.1
+    },
+    {
+      "text": "И запомните: в следующий раз сразу в приёмный покой.",
+      "file": "audio/doctor/doc-08.wav",
+      "tone": "сердито",
+      "duration": 3.82
+    }
+  ]
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,1653 @@
+[
+ {
+  "key": "menu_bg",
+  "group": "backgrounds",
+  "w": 1920,
+  "h": 1080,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/backgrounds/menu_bg.jpg"
+ },
+ {
+  "key": "road_far",
+  "group": "backgrounds",
+  "w": 3840,
+  "h": 1080,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/backgrounds/road_far.jpg"
+ },
+ {
+  "key": "road_mid",
+  "group": "backgrounds",
+  "w": 3840,
+  "h": 1080,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/backgrounds/road_mid.png"
+ },
+ {
+  "key": "road_front",
+  "group": "backgrounds",
+  "w": 3840,
+  "h": 1080,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/backgrounds/road_front.png"
+ },
+ {
+  "key": "road_far_storm",
+  "group": "backgrounds",
+  "w": 3840,
+  "h": 1080,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/backgrounds/road_far_storm.jpg"
+ },
+ {
+  "key": "porch",
+  "group": "backgrounds",
+  "w": 1920,
+  "h": 1080,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/backgrounds/porch.jpg"
+ },
+ {
+  "key": "porch_door_open",
+  "group": "backgrounds",
+  "w": 1920,
+  "h": 1080,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/backgrounds/porch_door_open.jpg"
+ },
+ {
+  "key": "bedroom_day",
+  "group": "backgrounds",
+  "w": 1920,
+  "h": 1080,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/backgrounds/bedroom_day.jpg"
+ },
+ {
+  "key": "bedroom_night",
+  "group": "backgrounds",
+  "w": 1920,
+  "h": 1080,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/backgrounds/bedroom_night.jpg"
+ },
+ {
+  "key": "bedroom_dawn",
+  "group": "backgrounds",
+  "w": 1920,
+  "h": 1080,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/backgrounds/bedroom_dawn.jpg"
+ },
+ {
+  "key": "bedroom_past",
+  "group": "backgrounds",
+  "w": 1920,
+  "h": 1080,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/backgrounds/bedroom_past.jpg"
+ },
+ {
+  "key": "anya_bed",
+  "group": "characters",
+  "w": 860,
+  "h": 540,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/characters/anya_bed.png"
+ },
+ {
+  "key": "boy_bed_sleep",
+  "group": "characters",
+  "w": 860,
+  "h": 540,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/characters/boy_bed_sleep.png"
+ },
+ {
+  "key": "web_window",
+  "group": "characters",
+  "w": 460,
+  "h": 460,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/characters/web_window.png"
+ },
+ {
+  "key": "thermometer_item",
+  "group": "characters",
+  "w": 240,
+  "h": 64,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/characters/thermometer_item.png"
+ },
+ {
+  "key": "boy_bed_healthy",
+  "group": "characters",
+  "w": 860,
+  "h": 540,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/characters/boy_bed_healthy.png"
+ },
+ {
+  "key": "boy_bed_sick",
+  "group": "characters",
+  "w": 860,
+  "h": 540,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/characters/boy_bed_sick.png"
+ },
+ {
+  "key": "boy_bed_very_sick",
+  "group": "characters",
+  "w": 860,
+  "h": 540,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/characters/boy_bed_very_sick.png"
+ },
+ {
+  "key": "boy_bed_critical",
+  "group": "characters",
+  "w": 860,
+  "h": 540,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/characters/boy_bed_critical.png"
+ },
+ {
+  "key": "pair_walk",
+  "group": "characters",
+  "w": 2160,
+  "h": 480,
+  "real": false,
+  "pivot": null,
+  "frames": 6,
+  "template": "шаблоны/characters/pair_walk.png"
+ },
+ {
+  "key": "scarf",
+  "group": "characters",
+  "w": 230,
+  "h": 90,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/characters/scarf.png"
+ },
+ {
+  "key": "mom_stand",
+  "group": "characters",
+  "w": 380,
+  "h": 860,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/characters/mom_stand.png"
+ },
+ {
+  "key": "spider_idle",
+  "group": "spider",
+  "w": 480,
+  "h": 340,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/spider/spider_idle.png"
+ },
+ {
+  "key": "spider_grin",
+  "group": "spider",
+  "w": 480,
+  "h": 340,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/spider/spider_grin.png"
+ },
+ {
+  "key": "spider_corner",
+  "group": "spider",
+  "w": 240,
+  "h": 170,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/spider/spider_corner.png"
+ },
+ {
+  "key": "spider_part_body",
+  "group": "spider",
+  "w": 230,
+  "h": 200,
+  "real": false,
+  "pivot": {
+   "rig": "spider",
+   "bone": "body",
+   "ox": 115,
+   "oy": 6
+  },
+  "template": "шаблоны/spider/spider_part_body.png"
+ },
+ {
+  "key": "spider_part_head_idle",
+  "group": "spider",
+  "w": 170,
+  "h": 170,
+  "real": false,
+  "pivot": {
+   "rig": "spider",
+   "bone": "head",
+   "ox": 85,
+   "oy": -129
+  },
+  "template": "шаблоны/spider/spider_part_head_idle.png"
+ },
+ {
+  "key": "spider_part_head_grin",
+  "group": "spider",
+  "w": 170,
+  "h": 170,
+  "real": false,
+  "pivot": {
+   "rig": "spider",
+   "bone": "head",
+   "ox": 85,
+   "oy": -129
+  },
+  "template": "шаблоны/spider/spider_part_head_grin.png"
+ },
+ {
+  "key": "spider_part_head_blink",
+  "group": "spider",
+  "w": 170,
+  "h": 170,
+  "real": false,
+  "pivot": {
+   "rig": "spider",
+   "bone": "head",
+   "ox": 85,
+   "oy": -129
+  },
+  "template": "шаблоны/spider/spider_part_head_blink.png"
+ },
+ {
+  "key": "spider_part_head_wow",
+  "group": "spider",
+  "w": 170,
+  "h": 170,
+  "real": false,
+  "pivot": {
+   "rig": "spider",
+   "bone": "head",
+   "ox": 85,
+   "oy": -129
+  },
+  "template": "шаблоны/spider/spider_part_head_wow.png"
+ },
+ {
+  "key": "spider_part_head_hmm",
+  "group": "spider",
+  "w": 170,
+  "h": 170,
+  "real": false,
+  "pivot": {
+   "rig": "spider",
+   "bone": "head",
+   "ox": 85,
+   "oy": -129
+  },
+  "template": "шаблоны/spider/spider_part_head_hmm.png"
+ },
+ {
+  "key": "spider_part_head_sly",
+  "group": "spider",
+  "w": 170,
+  "h": 170,
+  "real": false,
+  "pivot": {
+   "rig": "spider",
+   "bone": "head",
+   "ox": 85,
+   "oy": -129
+  },
+  "template": "шаблоны/spider/spider_part_head_sly.png"
+ },
+ {
+  "key": "bed_frame",
+  "group": "bed",
+  "w": 860,
+  "h": 540,
+  "real": false,
+  "pivot": {
+   "rig": "boy",
+   "bone": "root",
+   "ox": 0,
+   "oy": 0
+  },
+  "template": "шаблоны/bed/bed_frame.png"
+ },
+ {
+  "key": "blanket_body",
+  "group": "bed",
+  "w": 860,
+  "h": 540,
+  "real": false,
+  "pivot": {
+   "rig": "boy",
+   "bone": "blanket",
+   "ox": 0,
+   "oy": 444
+  },
+  "template": "шаблоны/bed/blanket_body.png"
+ },
+ {
+  "key": "blanket_fold",
+  "group": "bed",
+  "w": 220,
+  "h": 80,
+  "real": false,
+  "pivot": {
+   "rig": "boy",
+   "bone": "fold",
+   "ox": 110,
+   "oy": 40
+  },
+  "template": "шаблоны/bed/blanket_fold.png"
+ },
+ {
+  "key": "boy_head_healthy",
+  "group": "boy",
+  "w": 170,
+  "h": 170,
+  "real": false,
+  "pivot": {
+   "rig": "boy",
+   "bone": "head",
+   "ox": 85,
+   "oy": 85,
+   "variantOf": "boy_head_sick"
+  },
+  "template": "шаблоны/boy/boy_head_healthy.png"
+ },
+ {
+  "key": "boy_head_sick",
+  "group": "boy",
+  "w": 170,
+  "h": 170,
+  "real": false,
+  "pivot": {
+   "rig": "boy",
+   "bone": "head",
+   "ox": 85,
+   "oy": 85
+  },
+  "template": "шаблоны/boy/boy_head_sick.png"
+ },
+ {
+  "key": "boy_head_very_sick",
+  "group": "boy",
+  "w": 170,
+  "h": 170,
+  "real": false,
+  "pivot": {
+   "rig": "boy",
+   "bone": "head",
+   "ox": 85,
+   "oy": 85,
+   "variantOf": "boy_head_sick"
+  },
+  "template": "шаблоны/boy/boy_head_very_sick.png"
+ },
+ {
+  "key": "boy_head_critical",
+  "group": "boy",
+  "w": 170,
+  "h": 170,
+  "real": false,
+  "pivot": {
+   "rig": "boy",
+   "bone": "head",
+   "ox": 85,
+   "oy": 85,
+   "variantOf": "boy_head_sick"
+  },
+  "template": "шаблоны/boy/boy_head_critical.png"
+ },
+ {
+  "key": "boy_eyes_open",
+  "group": "boy",
+  "w": 110,
+  "h": 50,
+  "real": false,
+  "pivot": {
+   "rig": "boy",
+   "bone": "head",
+   "ox": 54,
+   "oy": 25,
+   "variantOf": "boy_eyes_sad"
+  },
+  "template": "шаблоны/boy/boy_eyes_open.png"
+ },
+ {
+  "key": "boy_eyes_half",
+  "group": "boy",
+  "w": 110,
+  "h": 50,
+  "real": false,
+  "pivot": {
+   "rig": "boy",
+   "bone": "head",
+   "ox": 54,
+   "oy": 25,
+   "variantOf": "boy_eyes_sad"
+  },
+  "template": "шаблоны/boy/boy_eyes_half.png"
+ },
+ {
+  "key": "boy_eyes_closed",
+  "group": "boy",
+  "w": 110,
+  "h": 50,
+  "real": false,
+  "pivot": {
+   "rig": "boy",
+   "bone": "head",
+   "ox": 54,
+   "oy": 25,
+   "variantOf": "boy_eyes_sad"
+  },
+  "template": "шаблоны/boy/boy_eyes_closed.png"
+ },
+ {
+  "key": "boy_eyes_happy",
+  "group": "boy",
+  "w": 110,
+  "h": 50,
+  "real": false,
+  "pivot": {
+   "rig": "boy",
+   "bone": "head",
+   "ox": 54,
+   "oy": 25,
+   "variantOf": "boy_eyes_sad"
+  },
+  "template": "шаблоны/boy/boy_eyes_happy.png"
+ },
+ {
+  "key": "boy_eyes_wide",
+  "group": "boy",
+  "w": 110,
+  "h": 50,
+  "real": false,
+  "pivot": {
+   "rig": "boy",
+   "bone": "head",
+   "ox": 54,
+   "oy": 25,
+   "variantOf": "boy_eyes_sad"
+  },
+  "template": "шаблоны/boy/boy_eyes_wide.png"
+ },
+ {
+  "key": "boy_eyes_sad",
+  "group": "boy",
+  "w": 110,
+  "h": 50,
+  "real": false,
+  "pivot": {
+   "rig": "boy",
+   "bone": "head",
+   "ox": 54,
+   "oy": 25
+  },
+  "template": "шаблоны/boy/boy_eyes_sad.png"
+ },
+ {
+  "key": "boy_eyes_squint",
+  "group": "boy",
+  "w": 110,
+  "h": 50,
+  "real": false,
+  "pivot": {
+   "rig": "boy",
+   "bone": "head",
+   "ox": 54,
+   "oy": 25,
+   "variantOf": "boy_eyes_sad"
+  },
+  "template": "шаблоны/boy/boy_eyes_squint.png"
+ },
+ {
+  "key": "boy_mouth_closed",
+  "group": "boy",
+  "w": 60,
+  "h": 40,
+  "real": false,
+  "pivot": {
+   "rig": "boy",
+   "bone": "head",
+   "ox": 30,
+   "oy": 18
+  },
+  "template": "шаблоны/boy/boy_mouth_closed.png"
+ },
+ {
+  "key": "boy_mouth_half",
+  "group": "boy",
+  "w": 60,
+  "h": 40,
+  "real": false,
+  "pivot": {
+   "rig": "boy",
+   "bone": "head",
+   "ox": 30,
+   "oy": 18,
+   "variantOf": "boy_mouth_closed"
+  },
+  "template": "шаблоны/boy/boy_mouth_half.png"
+ },
+ {
+  "key": "boy_mouth_open",
+  "group": "boy",
+  "w": 60,
+  "h": 40,
+  "real": false,
+  "pivot": {
+   "rig": "boy",
+   "bone": "head",
+   "ox": 30,
+   "oy": 18,
+   "variantOf": "boy_mouth_closed"
+  },
+  "template": "шаблоны/boy/boy_mouth_open.png"
+ },
+ {
+  "key": "boy_mouth_O",
+  "group": "boy",
+  "w": 60,
+  "h": 40,
+  "real": false,
+  "pivot": {
+   "rig": "boy",
+   "bone": "head",
+   "ox": 30,
+   "oy": 18,
+   "variantOf": "boy_mouth_closed"
+  },
+  "template": "шаблоны/boy/boy_mouth_O.png"
+ },
+ {
+  "key": "boy_mouth_smile",
+  "group": "boy",
+  "w": 60,
+  "h": 40,
+  "real": false,
+  "pivot": {
+   "rig": "boy",
+   "bone": "head",
+   "ox": 30,
+   "oy": 18,
+   "variantOf": "boy_mouth_closed"
+  },
+  "template": "шаблоны/boy/boy_mouth_smile.png"
+ },
+ {
+  "key": "boy_mouth_grin",
+  "group": "boy",
+  "w": 60,
+  "h": 40,
+  "real": false,
+  "pivot": {
+   "rig": "boy",
+   "bone": "head",
+   "ox": 30,
+   "oy": 18,
+   "variantOf": "boy_mouth_closed"
+  },
+  "template": "шаблоны/boy/boy_mouth_grin.png"
+ },
+ {
+  "key": "boy_mouth_frown",
+  "group": "boy",
+  "w": 60,
+  "h": 40,
+  "real": false,
+  "pivot": {
+   "rig": "boy",
+   "bone": "head",
+   "ox": 30,
+   "oy": 18,
+   "variantOf": "boy_mouth_closed"
+  },
+  "template": "шаблоны/boy/boy_mouth_frown.png"
+ },
+ {
+  "key": "boy_mouth_wavy",
+  "group": "boy",
+  "w": 60,
+  "h": 40,
+  "real": false,
+  "pivot": {
+   "rig": "boy",
+   "bone": "head",
+   "ox": 30,
+   "oy": 18,
+   "variantOf": "boy_mouth_closed"
+  },
+  "template": "шаблоны/boy/boy_mouth_wavy.png"
+ },
+ {
+  "key": "boy_upper",
+  "group": "boy",
+  "w": 44,
+  "h": 104,
+  "real": false,
+  "pivot": {
+   "rig": "boy",
+   "bone": "fUp",
+   "ox": 22,
+   "oy": 16
+  },
+  "template": "шаблоны/boy/boy_upper.png"
+ },
+ {
+  "key": "boy_fore",
+  "group": "boy",
+  "w": 40,
+  "h": 96,
+  "real": false,
+  "pivot": {
+   "rig": "boy",
+   "bone": "fFo",
+   "ox": 20,
+   "oy": 16
+  },
+  "template": "шаблоны/boy/boy_fore.png"
+ },
+ {
+  "key": "boy_hand_healthy",
+  "group": "boy",
+  "w": 40,
+  "h": 44,
+  "real": false,
+  "pivot": {
+   "rig": "boy",
+   "bone": "fHand",
+   "ox": 20,
+   "oy": 10,
+   "variantOf": "boy_hand_sick"
+  },
+  "template": "шаблоны/boy/boy_hand_healthy.png"
+ },
+ {
+  "key": "boy_hand_sick",
+  "group": "boy",
+  "w": 40,
+  "h": 44,
+  "real": false,
+  "pivot": {
+   "rig": "boy",
+   "bone": "fHand",
+   "ox": 20,
+   "oy": 10
+  },
+  "template": "шаблоны/boy/boy_hand_sick.png"
+ },
+ {
+  "key": "boy_hand_very_sick",
+  "group": "boy",
+  "w": 40,
+  "h": 44,
+  "real": false,
+  "pivot": {
+   "rig": "boy",
+   "bone": "fHand",
+   "ox": 20,
+   "oy": 10,
+   "variantOf": "boy_hand_sick"
+  },
+  "template": "шаблоны/boy/boy_hand_very_sick.png"
+ },
+ {
+  "key": "boy_hand_critical",
+  "group": "boy",
+  "w": 40,
+  "h": 44,
+  "real": false,
+  "pivot": {
+   "rig": "boy",
+   "bone": "fHand",
+   "ox": 20,
+   "oy": 10,
+   "variantOf": "boy_hand_sick"
+  },
+  "template": "шаблоны/boy/boy_hand_critical.png"
+ },
+ {
+  "key": "mom_torso",
+  "group": "mom",
+  "w": 170,
+  "h": 190,
+  "real": false,
+  "pivot": {
+   "rig": "mom",
+   "bone": "torso",
+   "ox": 85,
+   "oy": 180
+  },
+  "template": "шаблоны/mom/mom_torso.png"
+ },
+ {
+  "key": "mom_skirt",
+  "group": "mom",
+  "w": 190,
+  "h": 210,
+  "real": false,
+  "pivot": {
+   "rig": "mom",
+   "bone": "pelvis",
+   "ox": 95,
+   "oy": 12
+  },
+  "template": "шаблоны/mom/mom_skirt.png"
+ },
+ {
+  "key": "mom_head",
+  "group": "mom",
+  "w": 150,
+  "h": 170,
+  "real": false,
+  "pivot": {
+   "rig": "mom",
+   "bone": "head",
+   "ox": 72,
+   "oy": 160
+  },
+  "template": "шаблоны/mom/mom_head.png"
+ },
+ {
+  "key": "mom_eyes_open",
+  "group": "mom",
+  "w": 80,
+  "h": 40,
+  "real": false,
+  "pivot": {
+   "rig": "mom",
+   "bone": "head",
+   "ox": 40,
+   "oy": 20
+  },
+  "template": "шаблоны/mom/mom_eyes_open.png"
+ },
+ {
+  "key": "mom_eyes_closed",
+  "group": "mom",
+  "w": 80,
+  "h": 40,
+  "real": false,
+  "pivot": {
+   "rig": "mom",
+   "bone": "head",
+   "ox": 40,
+   "oy": 20,
+   "variantOf": "mom_eyes_open"
+  },
+  "template": "шаблоны/mom/mom_eyes_closed.png"
+ },
+ {
+  "key": "mom_eyes_happy",
+  "group": "mom",
+  "w": 80,
+  "h": 40,
+  "real": false,
+  "pivot": {
+   "rig": "mom",
+   "bone": "head",
+   "ox": 40,
+   "oy": 20,
+   "variantOf": "mom_eyes_open"
+  },
+  "template": "шаблоны/mom/mom_eyes_happy.png"
+ },
+ {
+  "key": "mom_eyes_worry",
+  "group": "mom",
+  "w": 80,
+  "h": 40,
+  "real": false,
+  "pivot": {
+   "rig": "mom",
+   "bone": "head",
+   "ox": 40,
+   "oy": 20,
+   "variantOf": "mom_eyes_open"
+  },
+  "template": "шаблоны/mom/mom_eyes_worry.png"
+ },
+ {
+  "key": "mom_mouth_closed",
+  "group": "mom",
+  "w": 40,
+  "h": 30,
+  "real": false,
+  "pivot": {
+   "rig": "mom",
+   "bone": "head",
+   "ox": 20,
+   "oy": 15,
+   "variantOf": "mom_mouth_smile"
+  },
+  "template": "шаблоны/mom/mom_mouth_closed.png"
+ },
+ {
+  "key": "mom_mouth_smile",
+  "group": "mom",
+  "w": 40,
+  "h": 30,
+  "real": false,
+  "pivot": {
+   "rig": "mom",
+   "bone": "head",
+   "ox": 20,
+   "oy": 15
+  },
+  "template": "шаблоны/mom/mom_mouth_smile.png"
+ },
+ {
+  "key": "mom_mouth_half",
+  "group": "mom",
+  "w": 40,
+  "h": 30,
+  "real": false,
+  "pivot": {
+   "rig": "mom",
+   "bone": "head",
+   "ox": 20,
+   "oy": 15,
+   "variantOf": "mom_mouth_smile"
+  },
+  "template": "шаблоны/mom/mom_mouth_half.png"
+ },
+ {
+  "key": "mom_mouth_open",
+  "group": "mom",
+  "w": 40,
+  "h": 30,
+  "real": false,
+  "pivot": {
+   "rig": "mom",
+   "bone": "head",
+   "ox": 20,
+   "oy": 15,
+   "variantOf": "mom_mouth_smile"
+  },
+  "template": "шаблоны/mom/mom_mouth_open.png"
+ },
+ {
+  "key": "mom_mouth_worry",
+  "group": "mom",
+  "w": 40,
+  "h": 30,
+  "real": false,
+  "pivot": {
+   "rig": "mom",
+   "bone": "head",
+   "ox": 20,
+   "oy": 15,
+   "variantOf": "mom_mouth_smile"
+  },
+  "template": "шаблоны/mom/mom_mouth_worry.png"
+ },
+ {
+  "key": "mom_upper",
+  "group": "mom",
+  "w": 50,
+  "h": 140,
+  "real": false,
+  "pivot": {
+   "rig": "mom",
+   "bone": "fUp",
+   "ox": 25,
+   "oy": 22
+  },
+  "template": "шаблоны/mom/mom_upper.png"
+ },
+ {
+  "key": "mom_fore",
+  "group": "mom",
+  "w": 44,
+  "h": 128,
+  "real": false,
+  "pivot": {
+   "rig": "mom",
+   "bone": "fFo",
+   "ox": 22,
+   "oy": 19
+  },
+  "template": "шаблоны/mom/mom_fore.png"
+ },
+ {
+  "key": "mom_hand",
+  "group": "mom",
+  "w": 46,
+  "h": 52,
+  "real": false,
+  "pivot": {
+   "rig": "mom",
+   "bone": "fHand",
+   "ox": 23,
+   "oy": 10
+  },
+  "template": "шаблоны/mom/mom_hand.png"
+ },
+ {
+  "key": "mom_thigh",
+  "group": "mom",
+  "w": 46,
+  "h": 150,
+  "real": false,
+  "pivot": {
+   "rig": "mom",
+   "bone": "fThigh",
+   "ox": 23,
+   "oy": 20
+  },
+  "template": "шаблоны/mom/mom_thigh.png"
+ },
+ {
+  "key": "mom_shin",
+  "group": "mom",
+  "w": 38,
+  "h": 150,
+  "real": false,
+  "pivot": {
+   "rig": "mom",
+   "bone": "fShin",
+   "ox": 19,
+   "oy": 16
+  },
+  "template": "шаблоны/mom/mom_shin.png"
+ },
+ {
+  "key": "mom_shoe",
+  "group": "mom",
+  "w": 76,
+  "h": 36,
+  "real": false,
+  "pivot": {
+   "rig": "mom",
+   "bone": "fFoot",
+   "ox": 22,
+   "oy": 14
+  },
+  "template": "шаблоны/mom/mom_shoe.png"
+ },
+ {
+  "key": "prop_cup",
+  "group": "props",
+  "w": 110,
+  "h": 130,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/props/prop_cup.png"
+ },
+ {
+  "key": "prop_cup_still",
+  "group": "props",
+  "w": 110,
+  "h": 130,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/props/prop_cup_still.png"
+ },
+ {
+  "key": "prop_spoon",
+  "group": "props",
+  "w": 110,
+  "h": 30,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/props/prop_spoon.png"
+ },
+ {
+  "key": "prop_spoon_empty",
+  "group": "props",
+  "w": 110,
+  "h": 30,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/props/prop_spoon_empty.png"
+ },
+ {
+  "key": "prop_tray",
+  "group": "props",
+  "w": 260,
+  "h": 170,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/props/prop_tray.png"
+ },
+ {
+  "key": "prop_plate",
+  "group": "props",
+  "w": 220,
+  "h": 150,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/props/prop_plate.png"
+ },
+ {
+  "key": "prop_socks",
+  "group": "props",
+  "w": 130,
+  "h": 130,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/props/prop_socks.png"
+ },
+ {
+  "key": "pov_room",
+  "group": "pov",
+  "w": 1920,
+  "h": 1080,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_room.jpg"
+ },
+ {
+  "key": "pov_room_night",
+  "group": "pov",
+  "w": 1920,
+  "h": 1080,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_room_night.jpg"
+ },
+ {
+  "key": "pov_blanket",
+  "group": "pov",
+  "w": 1920,
+  "h": 330,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_blanket.png"
+ },
+ {
+  "key": "pov_hand_healthy",
+  "group": "pov",
+  "w": 200,
+  "h": 340,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_hand_healthy.png"
+ },
+ {
+  "key": "pov_hand_sick",
+  "group": "pov",
+  "w": 200,
+  "h": 340,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_hand_sick.png"
+ },
+ {
+  "key": "pov_hand_very_sick",
+  "group": "pov",
+  "w": 200,
+  "h": 340,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_hand_very_sick.png"
+ },
+ {
+  "key": "pov_hand_critical",
+  "group": "pov",
+  "w": 200,
+  "h": 340,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_hand_critical.png"
+ },
+ {
+  "key": "pov_doctor",
+  "group": "pov",
+  "w": 900,
+  "h": 1000,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_doctor.png"
+ },
+ {
+  "key": "pov_doctor_eyes_open",
+  "group": "pov",
+  "w": 320,
+  "h": 80,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_doctor_eyes_open.png"
+ },
+ {
+  "key": "pov_doctor_eyes_closed",
+  "group": "pov",
+  "w": 320,
+  "h": 80,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_doctor_eyes_closed.png"
+ },
+ {
+  "key": "pov_doctor_eyes_smile",
+  "group": "pov",
+  "w": 320,
+  "h": 80,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_doctor_eyes_smile.png"
+ },
+ {
+  "key": "pov_doctor_mouth_closed",
+  "group": "pov",
+  "w": 120,
+  "h": 70,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_doctor_mouth_closed.png"
+ },
+ {
+  "key": "pov_doctor_mouth_open",
+  "group": "pov",
+  "w": 120,
+  "h": 70,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_doctor_mouth_open.png"
+ },
+ {
+  "key": "pov_spatula",
+  "group": "pov",
+  "w": 300,
+  "h": 60,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_spatula.png"
+ },
+ {
+  "key": "pov_medic",
+  "group": "pov",
+  "w": 800,
+  "h": 1000,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_medic.png"
+ },
+ {
+  "key": "pov_medic_eyes_open",
+  "group": "pov",
+  "w": 300,
+  "h": 80,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_medic_eyes_open.png"
+ },
+ {
+  "key": "pov_medic_eyes_closed",
+  "group": "pov",
+  "w": 300,
+  "h": 80,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_medic_eyes_closed.png"
+ },
+ {
+  "key": "pov_medic_mouth_closed",
+  "group": "pov",
+  "w": 120,
+  "h": 70,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_medic_mouth_closed.png"
+ },
+ {
+  "key": "pov_medic_mouth_open",
+  "group": "pov",
+  "w": 120,
+  "h": 70,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_medic_mouth_open.png"
+ },
+ {
+  "key": "pov_ceiling",
+  "group": "pov",
+  "w": 3840,
+  "h": 1080,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_ceiling.jpg"
+ },
+ {
+  "key": "pov_lid_top",
+  "group": "pov",
+  "w": 1920,
+  "h": 700,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_lid_top.png"
+ },
+ {
+  "key": "pov_lid_bot",
+  "group": "pov",
+  "w": 1920,
+  "h": 700,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_lid_bot.png"
+ },
+ {
+  "key": "pov_cup",
+  "group": "pov",
+  "w": 440,
+  "h": 520,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_cup.png"
+ },
+ {
+  "key": "pov_spoon",
+  "group": "pov",
+  "w": 484,
+  "h": 132,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_spoon.png"
+ },
+ {
+  "key": "pov_spoon_empty",
+  "group": "pov",
+  "w": 484,
+  "h": 132,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_spoon_empty.png"
+ },
+ {
+  "key": "pov_socks",
+  "group": "pov",
+  "w": 416,
+  "h": 416,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_socks.png"
+ },
+ {
+  "key": "pov_feet_bg",
+  "group": "pov",
+  "w": 1920,
+  "h": 1080,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_feet_bg.jpg"
+ },
+ {
+  "key": "pov_blanket_feet",
+  "group": "pov",
+  "w": 1920,
+  "h": 480,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_blanket_feet.png"
+ },
+ {
+  "key": "pov_foot_healthy",
+  "group": "pov",
+  "w": 180,
+  "h": 300,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_foot_healthy.png"
+ },
+ {
+  "key": "pov_foot_sick",
+  "group": "pov",
+  "w": 180,
+  "h": 300,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_foot_sick.png"
+ },
+ {
+  "key": "pov_foot_very_sick",
+  "group": "pov",
+  "w": 180,
+  "h": 300,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_foot_very_sick.png"
+ },
+ {
+  "key": "pov_foot_critical",
+  "group": "pov",
+  "w": 180,
+  "h": 300,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_foot_critical.png"
+ },
+ {
+  "key": "pov_foot_sock",
+  "group": "pov",
+  "w": 180,
+  "h": 300,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_foot_sock.png"
+ },
+ {
+  "key": "pov_towel",
+  "group": "pov",
+  "w": 900,
+  "h": 300,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_towel.png"
+ },
+ {
+  "key": "pov_mom_hand",
+  "group": "pov",
+  "w": 300,
+  "h": 200,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_mom_hand.png"
+ },
+ {
+  "key": "pov_bottle",
+  "group": "pov",
+  "w": 224,
+  "h": 416,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/pov/pov_bottle.png"
+ },
+ {
+  "key": "moth_fire",
+  "group": "world",
+  "w": 260,
+  "h": 200,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/moth_fire.png"
+ },
+ {
+  "key": "moth_white",
+  "group": "world",
+  "w": 260,
+  "h": 200,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/moth_white.png"
+ },
+ {
+  "key": "moth_fire_0",
+  "group": "world",
+  "w": 260,
+  "h": 200,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/moth_fire_0.png"
+ },
+ {
+  "key": "moth_white_0",
+  "group": "world",
+  "w": 260,
+  "h": 200,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/moth_white_0.png"
+ },
+ {
+  "key": "moth_fire_1",
+  "group": "world",
+  "w": 260,
+  "h": 200,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/moth_fire_1.png"
+ },
+ {
+  "key": "moth_white_1",
+  "group": "world",
+  "w": 260,
+  "h": 200,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/moth_white_1.png"
+ },
+ {
+  "key": "moth_fire_2",
+  "group": "world",
+  "w": 260,
+  "h": 200,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/moth_fire_2.png"
+ },
+ {
+  "key": "moth_white_2",
+  "group": "world",
+  "w": 260,
+  "h": 200,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/moth_white_2.png"
+ },
+ {
+  "key": "moth_fire_3",
+  "group": "world",
+  "w": 260,
+  "h": 200,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/moth_fire_3.png"
+ },
+ {
+  "key": "moth_white_3",
+  "group": "world",
+  "w": 260,
+  "h": 200,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/moth_white_3.png"
+ },
+ {
+  "key": "fx_ember",
+  "group": "world",
+  "w": 24,
+  "h": 24,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/fx_ember.png"
+ },
+ {
+  "key": "fx_flake",
+  "group": "world",
+  "w": 24,
+  "h": 24,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/fx_flake.png"
+ },
+ {
+  "key": "ice_web",
+  "group": "world",
+  "w": 640,
+  "h": 640,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/ice_web.png"
+ },
+ {
+  "key": "silver_net",
+  "group": "world",
+  "w": 560,
+  "h": 560,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/silver_net.png"
+ },
+ {
+  "key": "armchair",
+  "group": "world",
+  "w": 330,
+  "h": 450,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/armchair.png"
+ },
+ {
+  "key": "plaid",
+  "group": "world",
+  "w": 320,
+  "h": 250,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/plaid.png"
+ },
+ {
+  "key": "bullfinch",
+  "group": "world",
+  "w": 110,
+  "h": 92,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/bullfinch.png"
+ },
+ {
+  "key": "bullfinch_peck",
+  "group": "world",
+  "w": 110,
+  "h": 92,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/bullfinch_peck.png"
+ },
+ {
+  "key": "bullfinch_fly_0",
+  "group": "world",
+  "w": 130,
+  "h": 110,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/bullfinch_fly_0.png"
+ },
+ {
+  "key": "bullfinch_fly_1",
+  "group": "world",
+  "w": 130,
+  "h": 110,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/bullfinch_fly_1.png"
+ },
+ {
+  "key": "prop_phone",
+  "group": "world",
+  "w": 34,
+  "h": 64,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/prop_phone.png"
+ },
+ {
+  "key": "prop_bottle",
+  "group": "world",
+  "w": 70,
+  "h": 130,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/prop_bottle.png"
+ },
+ {
+  "key": "socks_peek",
+  "group": "world",
+  "w": 150,
+  "h": 96,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/socks_peek.png"
+ },
+ {
+  "key": "fx_beam_soft",
+  "group": "world",
+  "w": 1000,
+  "h": 1000,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/fx_beam_soft.png"
+ },
+ {
+  "key": "drawing_tikhon",
+  "group": "world",
+  "w": 900,
+  "h": 700,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/drawing_tikhon.jpg"
+ },
+ {
+  "key": "street_night",
+  "group": "world",
+  "w": 1920,
+  "h": 1080,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/street_night.jpg"
+ },
+ {
+  "key": "ambulance",
+  "group": "world",
+  "w": 760,
+  "h": 360,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/ambulance.png"
+ },
+ {
+  "key": "ambulance_open",
+  "group": "world",
+  "w": 760,
+  "h": 360,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/ambulance_open.png"
+ },
+ {
+  "key": "ambulance_wheel",
+  "group": "world",
+  "w": 120,
+  "h": 120,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/ambulance_wheel.png"
+ },
+ {
+  "key": "corner_shadow",
+  "group": "world",
+  "w": 520,
+  "h": 420,
+  "real": false,
+  "pivot": null,
+  "template": "шаблоны/world/corner_shadow.png"
+ }
+]

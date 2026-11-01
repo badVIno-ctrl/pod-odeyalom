@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Голос мальчика — озвучка</title>
+<link rel="stylesheet" href="voice/voice.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1><span class="dot"></span><span id="title">Голос мальчика</span></h1>
+    <p class="sub" id="subtitle">детский, чуть писклявый, 8 лет</p>
+    <p class="attrs" id="attrs"></p>
+  </header>
+
+  <nav>
+    <a href="golos-malchika.html" aria-current="page">Голос мальчика</a>
+    <a href="golos-mamy.html">Голос мамы</a>
+    <a href="golos-vracha.html">Голос врача</a>
+    <a href="golos-pauka.html">Голос паука</a>
+  </nav>
+
+  <div class="bar">
+    <button type="button" class="primary" id="all">Проиграть все фразы</button>
+    <button type="button" id="stop">Стоп</button>
+  </div>
+
+  <div class="list" id="list"></div>
+
+  <footer>
+    Фразы озвучены заранее офлайн-движком VoiceEngine из папки <code>shorts</code>
+    и лежат в <code>audio/boy/</code> (8 файлов .wav, 48 кГц).
+  </footer>
+</div>
+
+<script src="voice/voice.js"></script>
+<script>
+initVoicePage({
+  "title": "Голос мальчика",
+  "subtitle": "детский, чуть писклявый, 8 лет",
+  "attrs": "м, 8, m3, formant=1.12, pitch=1.06",
+  "accent": "#4cc3ff",
+  "lines": [
+    {
+      "text": "Мам! Мам, иди сюда, тут что-то по стене бежит!",
+      "file": "audio/boy/boy-01.wav",
+      "tone": "испуганно",
+      "duration": 3.07
+    },
+    {
+      "text": "Я его не трогал, честно! Оно само на меня прыгнуло.",
+      "file": "audio/boy/boy-02.wav",
+      "tone": null,
+      "duration": 3.52
+    },
+    {
+      "text": "Ой... он укусил меня за палец. Жжётся!",
+      "file": "audio/boy/boy-03.wav",
+      "tone": "испуганно",
+      "duration": 3.29
+    },
+    {
+      "text": "Я не боюсь. Ну... почти не боюсь.",
+      "file": "audio/boy/boy-04.wav",
+      "tone": null,
+      "duration": 3.34
+    },
+    {
+      "text": "А он правда ядовитый? Я теперь буду человек-паук?",
+      "file": "audio/boy/boy-05.wav",
+      "tone": "радостно",
+      "duration": 3.28
+    },
+    {
+      "text": "Не дави его! Пусть живёт, он же маленький.",
+      "file": "audio/boy/boy-06.wav",
+      "tone": null,
+      "duration": 2.95
+    },
+    {
+      "text": "Мам, а если он вернётся ночью?",
+      "file": "audio/boy/boy-07.wav",
+      "tone": "испуганно",
+      "duration": 1.83
+    },
+    {
+      "text": "Я его поймал в банку! Смотри, какой красивый.",
+      "file": "audio/boy/boy-08.wav",
+      "tone": "радостно",
+      "duration": 3.14
+    }
+  ]
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Голос паука — озвучка</title>
+<link rel="stylesheet" href="voice/voice.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1><span class="dot"></span><span id="title">Голос паука</span></h1>
+    <p class="sub" id="subtitle">низкий брутальный мужской с шипением</p>
+    <p class="attrs" id="attrs"></p>
+  </header>
+
+  <nav>
+    <a href="golos-malchika.html">Голос мальчика</a>
+    <a href="golos-mamy.html">Голос мамы</a>
+    <a href="golos-vracha.html">Голос врача</a>
+    <a href="golos-pauka.html" aria-current="page">Голос паука</a>
+  </nav>
+
+  <div class="bar">
+    <button type="button" class="primary" id="all">Проиграть все фразы</button>
+    <button type="button" id="stop">Стоп</button>
+  </div>
+
+  <div class="list" id="list"></div>
+
+  <footer>
+    Фразы озвучены заранее офлайн-движком VoiceEngine из папки <code>shorts</code>
+    и лежат в <code>audio/spider/</code> (8 файлов .wav, 48 кГц).
+  </footer>
+</div>
+
+<script src="voice/voice.js"></script>
+<script>
+initVoicePage({
+  "title": "Голос паука",
+  "subtitle": "низкий брутальный мужской с шипением",
+  "attrs": "м, 46, m2, сердито, effect=growl+room, speed=0.9, pitch=0.93",
+  "accent": "#d46a3a",
+  "lines": [
+    {
+      "text": "Ты занял мой угол, человек. Я всего лишь напомнил.",
+      "file": "audio/spider/spd-01.wav",
+      "tone": null,
+      "duration": 3.91
+    },
+    {
+      "text": "Слышишь, как дрожит нить? Это твой пульс.",
+      "file": "audio/spider/spd-02.wav",
+      "tone": null,
+      "duration": 3.33
+    },
+    {
+      "text": "Я меньше твоей монеты. И всё же ты звонишь врачу.",
+      "file": "audio/spider/spd-03.wav",
+      "tone": null,
+      "duration": 3.6
+    },
+    {
+      "text": "Вы строите стены. Мы строим сети. Угадай, что крепче.",
+      "file": "audio/spider/spd-04.wav",
+      "tone": null,
+      "duration": 4.77
+    },
+    {
+      "text": "Я не охотился на тебя. Ты сам вошёл в мой дом.",
+      "file": "audio/spider/spd-05.wav",
+      "tone": null,
+      "duration": 3.51
+    },
+    {
+      "text": "Банка? Думаешь, это клетка? Это сцена.",
+      "file": "audio/spider/spd-06.wav",
+      "tone": null,
+      "duration": 4.01
+    },
+    {
+      "text": "Твой врач знает моё имя. Каракурт.",
+      "file": "audio/spider/spd-07.wav",
+      "tone": "торжественно",
+      "duration": 3.49
+    },
+    {
+      "text": "Ночь длинная. Я умею ждать.",
+      "file": "audio/spider/spd-08.wav",
+      "tone": "шёпотом",
+      "duration": 3.03
+    }
+  ]
+});
+</script>
+</body>
+</html>

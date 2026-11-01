@@ -1,0 +1,668 @@
+{
+  "_readme": "Ключи картинок и звуков. Файл кладётся по пути file (расширение можно .png/.webp/.jpg и .mp3/.ogg/.wav). Нет файла — игра рисует заглушку или молчит.",
+  "images": {
+    "menu_bg": {
+      "file": "img/menu_bg.png",
+      "w": 1920,
+      "h": 1080,
+      "desc": "Меню: спальня в сумерках, паутина в углу"
+    },
+    "road_far": {
+      "file": "img/road_far.png",
+      "w": 3840,
+      "h": 1080,
+      "desc": "Пролог: дальний слой дороги (небо, лес), день"
+    },
+    "road_mid": {
+      "file": "img/road_mid.png",
+      "w": 3840,
+      "h": 1080,
+      "desc": "Пролог: средний слой (ёлки, сугробы)"
+    },
+    "road_front": {
+      "file": "img/road_front.png",
+      "w": 3840,
+      "h": 1080,
+      "desc": "Пролог: ближний слой (дорога, снег у края)"
+    },
+    "road_far_storm": {
+      "file": "img/road_far_storm.png",
+      "w": 3840,
+      "h": 1080,
+      "desc": "Пролог: дальний слой в пургу"
+    },
+    "porch": {
+      "file": "img/porch.png",
+      "w": 1920,
+      "h": 1080,
+      "desc": "Пролог: крыльцо дома, дверь закрыта"
+    },
+    "porch_door_open": {
+      "file": "img/porch_door_open.png",
+      "w": 1920,
+      "h": 1080,
+      "desc": "Пролог: то же крыльцо, дверь открыта, тёплый свет"
+    },
+    "bedroom_day": {
+      "file": "img/bedroom_day.png",
+      "w": 1920,
+      "h": 1080,
+      "desc": "Спальня днём (без кровати с мальчиком и без мамы)"
+    },
+    "bedroom_night": {
+      "file": "img/bedroom_night.png",
+      "w": 1920,
+      "h": 1080,
+      "desc": "Спальня ночью"
+    },
+    "web_window": {
+      "file": "img/web_window.png",
+      "w": 460,
+      "h": 460,
+      "desc": "Паутина на окне (состояние комнаты C), прозрачный фон"
+    },
+    "thermometer_item": {
+      "file": "img/thermometer_item.png",
+      "w": 240,
+      "h": 64,
+      "desc": "Градусник на тумбочке"
+    },
+    "boy_bed_healthy": {
+      "file": "img/boy_bed_healthy.png",
+      "w": 860,
+      "h": 540,
+      "desc": "Мальчик в кровати: здоров (≤ 37,5°)"
+    },
+    "boy_bed_sick": {
+      "file": "img/boy_bed_sick.png",
+      "w": 860,
+      "h": 540,
+      "desc": "Мальчик в кровати: болеет (≤ 38,9°)"
+    },
+    "boy_bed_very_sick": {
+      "file": "img/boy_bed_very_sick.png",
+      "w": 860,
+      "h": 540,
+      "desc": "Мальчик в кровати: сильно болеет (≤ 39,7°)"
+    },
+    "boy_bed_critical": {
+      "file": "img/boy_bed_critical.png",
+      "w": 860,
+      "h": 540,
+      "desc": "Мальчик в кровати: очень плохо (> 39,7°)"
+    },
+    "pair_walk": {
+      "file": "img/pair_walk.png",
+      "w": 2160,
+      "h": 480,
+      "desc": "Мама и мальчик идут, 6 кадров по 360×480 в одну строку, без шарфа",
+      "frames": 6
+    },
+    "scarf": {
+      "file": "img/scarf.png",
+      "w": 230,
+      "h": 90,
+      "desc": "Шарф мальчика (улетает в пургу)"
+    },
+    "mom_stand": {
+      "file": "img/mom_stand.png",
+      "w": 380,
+      "h": 860,
+      "desc": "Мама стоит в полный рост"
+    },
+    "spider_idle": {
+      "file": "img/spider_idle.png",
+      "w": 480,
+      "h": 340,
+      "desc": "Паук висит (нить крепится в середину верхнего края, 12 px от верха)"
+    },
+    "spider_grin": {
+      "file": "img/spider_grin.png",
+      "w": 480,
+      "h": 340,
+      "desc": "Паук ухмыляется (то же положение)"
+    },
+    "spider_corner": {
+      "file": "img/spider_corner.png",
+      "w": 240,
+      "h": 170,
+      "desc": "Маленький паук в углу (меню)"
+    },
+    "bedroom_dawn": {
+      "file": "img/bedroom_dawn.png",
+      "w": 1920,
+      "h": 1080,
+      "desc": "Спальня на рассвете (финал «выздоровел»): тёплый свет, пурга стихла"
+    }
+  },
+  "sounds": {
+    "wind_soft": {
+      "file": "audio/sfx/wind_soft.mp3",
+      "volume": 0.45,
+      "loop": true,
+      "desc": "Тихий зимний ветер (пролог, меню)"
+    },
+    "blizzard": {
+      "file": "audio/sfx/blizzard.mp3",
+      "volume": 0.7,
+      "loop": true,
+      "desc": "Пурга"
+    },
+    "snow_steps": {
+      "file": "audio/sfx/snow_steps.mp3",
+      "volume": 0.5,
+      "loop": true,
+      "desc": "Шаги по снегу"
+    },
+    "door": {
+      "file": "audio/sfx/door.mp3",
+      "volume": 0.7,
+      "loop": false,
+      "desc": "Дверь открывается/закрывается"
+    },
+    "clock": {
+      "file": "audio/sfx/clock.mp3",
+      "volume": 0.5,
+      "loop": true,
+      "desc": "Тиканье часов"
+    },
+    "cough_soft_1": {
+      "file": "audio/sfx/cough_soft_1.mp3",
+      "volume": 0.8,
+      "loop": false,
+      "desc": "Лёгкий кашель ребёнка"
+    },
+    "cough_soft_2": {
+      "file": "audio/sfx/cough_soft_2.mp3",
+      "volume": 0.8,
+      "loop": false,
+      "desc": "Лёгкий кашель ребёнка"
+    },
+    "cough_soft_3": {
+      "file": "audio/sfx/cough_soft_3.mp3",
+      "volume": 0.8,
+      "loop": false,
+      "desc": "Лёгкий кашель ребёнка"
+    },
+    "cough_hard_1": {
+      "file": "audio/sfx/cough_hard_1.mp3",
+      "volume": 0.85,
+      "loop": false,
+      "desc": "Сильный кашель ребёнка"
+    },
+    "cough_hard_2": {
+      "file": "audio/sfx/cough_hard_2.mp3",
+      "volume": 0.85,
+      "loop": false,
+      "desc": "Сильный кашель ребёнка"
+    },
+    "cough_hard_3": {
+      "file": "audio/sfx/cough_hard_3.mp3",
+      "volume": 0.85,
+      "loop": false,
+      "desc": "Сильный кашель ребёнка"
+    },
+    "spider_laugh": {
+      "file": "audio/sfx/spider_laugh.mp3",
+      "volume": 0.9,
+      "loop": false,
+      "desc": "Смех паука"
+    },
+    "move": {
+      "file": "audio/sfx/move.mp3",
+      "volume": 0.8,
+      "loop": false,
+      "desc": "Ход: мел по доске"
+    },
+    "win": {
+      "file": "audio/sfx/win.mp3",
+      "volume": 0.7,
+      "loop": false,
+      "desc": "Победа: арфа вверх и аккорд D-dur на фортепиано с колокольчиком"
+    },
+    "lose": {
+      "file": "audio/sfx/lose.mp3",
+      "volume": 0.7,
+      "loop": false,
+      "desc": "Поражение: челеста вниз и тихий аккорд h-moll на фортепиано"
+    },
+    "splash_1": {
+      "file": "audio/sfx/splash_1.mp3",
+      "volume": 0.7,
+      "loop": false,
+      "desc": "Всплеск: промах в морском бое"
+    },
+    "splash_2": {
+      "file": "audio/sfx/splash_2.mp3",
+      "volume": 0.7,
+      "loop": false,
+      "desc": "Всплеск"
+    },
+    "boom": {
+      "file": "audio/sfx/boom.mp3",
+      "volume": 0.75,
+      "loop": false,
+      "desc": "Взрыв: попадание"
+    },
+    "wood_1": {
+      "file": "audio/sfx/wood_1.mp3",
+      "volume": 0.8,
+      "loop": false,
+      "desc": "Шашка по доске"
+    },
+    "wood_2": {
+      "file": "audio/sfx/wood_2.mp3",
+      "volume": 0.8,
+      "loop": false,
+      "desc": "Шашка"
+    },
+    "wood_3": {
+      "file": "audio/sfx/wood_3.mp3",
+      "volume": 0.8,
+      "loop": false,
+      "desc": "Шашка"
+    },
+    "paper_1": {
+      "file": "audio/sfx/paper_1.mp3",
+      "volume": 0.6,
+      "loop": false,
+      "desc": "Шорох бумаги"
+    },
+    "paper_2": {
+      "file": "audio/sfx/paper_2.mp3",
+      "volume": 0.6,
+      "loop": false,
+      "desc": "Перелистывание"
+    },
+    "paper_3": {
+      "file": "audio/sfx/paper_3.mp3",
+      "volume": 0.6,
+      "loop": false,
+      "desc": "Перелистывание"
+    },
+    "pencil_1": {
+      "file": "audio/sfx/pencil_1.mp3",
+      "volume": 0.6,
+      "loop": false,
+      "desc": "Карандаш"
+    },
+    "pencil_2": {
+      "file": "audio/sfx/pencil_2.mp3",
+      "volume": 0.6,
+      "loop": false,
+      "desc": "Карандаш"
+    },
+    "pencil_3": {
+      "file": "audio/sfx/pencil_3.mp3",
+      "volume": 0.6,
+      "loop": false,
+      "desc": "Карандаш"
+    },
+    "erase": {
+      "file": "audio/sfx/erase.mp3",
+      "volume": 0.6,
+      "loop": false,
+      "desc": "Ластик"
+    },
+    "spoon_1": {
+      "file": "audio/sfx/spoon_1.mp3",
+      "volume": 0.6,
+      "loop": false,
+      "desc": "Ложка о чашку"
+    },
+    "spoon_2": {
+      "file": "audio/sfx/spoon_2.mp3",
+      "volume": 0.6,
+      "loop": false,
+      "desc": "Ложка о чашку"
+    },
+    "cup": {
+      "file": "audio/sfx/cup.mp3",
+      "volume": 0.6,
+      "loop": false,
+      "desc": "Чашка на тумбочку"
+    },
+    "doorbell": {
+      "file": "audio/sfx/doorbell.mp3",
+      "volume": 0.6,
+      "loop": false,
+      "desc": "Звонок в дверь (врач)"
+    },
+    "pop": {
+      "file": "audio/sfx/pop.mp3",
+      "volume": 0.6,
+      "loop": false,
+      "desc": "Хлопок/появление"
+    },
+    "chime": {
+      "file": "audio/sfx/chime.mp3",
+      "volume": 0.55,
+      "loop": false,
+      "desc": "Звон: награда"
+    },
+    "sparkle": {
+      "file": "audio/sfx/sparkle.mp3",
+      "volume": 0.5,
+      "loop": false,
+      "desc": "Волшебное мерцание"
+    },
+    "magic": {
+      "file": "audio/sfx/magic.mp3",
+      "volume": 0.5,
+      "loop": false,
+      "desc": "Паук исчезает"
+    },
+    "gull_1": {
+      "file": "audio/sfx/gull_1.mp3",
+      "volume": 0.35,
+      "loop": false,
+      "desc": "Чайка"
+    },
+    "gull_2": {
+      "file": "audio/sfx/gull_2.mp3",
+      "volume": 0.35,
+      "loop": false,
+      "desc": "Чайка"
+    },
+    "gull_3": {
+      "file": "audio/sfx/gull_3.mp3",
+      "volume": 0.35,
+      "loop": false,
+      "desc": "Чайка"
+    },
+    "siren": {
+      "file": "audio/sfx/siren.ogg",
+      "volume": 0.18,
+      "loop": false,
+      "desc": "Сирена скорой вдали, петля"
+    },
+    "heartbeat": {
+      "file": "audio/sfx/heartbeat.ogg",
+      "volume": 0.22,
+      "loop": true,
+      "desc": "Сердцебиение (третье поражение), петля 14.4 с"
+    },
+    "sea": {
+      "file": "audio/sfx/sea.ogg",
+      "volume": 0.4,
+      "loop": true,
+      "desc": "Море под одеялом (морской бой), петля"
+    },
+    "musicbox": {
+      "file": "audio/sfx/musicbox.ogg",
+      "volume": 0.3,
+      "loop": true,
+      "desc": "Музыкальная шкатулка: тема колыбельной, петля 40 с"
+    },
+    "stove": {
+      "file": "audio/sfx/stove.ogg",
+      "volume": 0.3,
+      "loop": true,
+      "desc": "Потрескивание печки, петля"
+    },
+    "drone": {
+      "file": "audio/sfx/drone.ogg",
+      "volume": 0.3,
+      "loop": true,
+      "desc": "Низкий гул (напряжение), петля"
+    },
+    "sip_1": {
+      "file": "audio/sfx/sip_1.mp3",
+      "volume": 0.6,
+      "loop": false,
+      "desc": "Глоток чая: хлюп и глоток"
+    },
+    "sip_2": {
+      "file": "audio/sfx/sip_2.mp3",
+      "volume": 0.6,
+      "loop": false,
+      "desc": "Глоток чая"
+    },
+    "gulp_1": {
+      "file": "audio/sfx/gulp_1.mp3",
+      "volume": 0.6,
+      "loop": false,
+      "desc": "«Ам!»: проглотил лекарство"
+    },
+    "gulp_2": {
+      "file": "audio/sfx/gulp_2.mp3",
+      "volume": 0.6,
+      "loop": false,
+      "desc": "«Ам!»"
+    },
+    "tap": {
+      "file": "audio/sfx/tap.mp3",
+      "volume": 0.45,
+      "loop": false,
+      "desc": "Нажатие"
+    },
+    "whoosh": {
+      "file": "audio/sfx/whoosh.mp3",
+      "volume": 0.45,
+      "loop": false,
+      "desc": "Взмах"
+    },
+    "combo": {
+      "file": "audio/sfx/combo.mp3",
+      "volume": 0.5,
+      "loop": false,
+      "desc": "Серия удачных ходов"
+    },
+    "web": {
+      "file": "audio/sfx/web.mp3",
+      "volume": 0.5,
+      "loop": false,
+      "desc": "Натяжение паутины"
+    },
+    "buzz": {
+      "file": "audio/sfx/buzz.mp3",
+      "volume": 0.35,
+      "loop": false,
+      "desc": "Жужжание мухи"
+    },
+    "blink": {
+      "file": "audio/sfx/blink.mp3",
+      "volume": 0.4,
+      "loop": false,
+      "desc": "Моргание (вид от первого лица)"
+    },
+    "moth_flutter": {
+      "file": "audio/sfx/moth_flutter.mp3",
+      "volume": 0.5,
+      "loop": false,
+      "desc": "Трепет крыльев огнёвки (синтез, _исходники/звук/build_sfx.py)"
+    },
+    "bullfinch": {
+      "file": "audio/sfx/bullfinch.mp3",
+      "volume": 0.5,
+      "loop": false,
+      "desc": "Посвист снегиря за окном (синтез, _исходники/звук/build_sfx.py)"
+    },
+    "engine": {
+      "file": "audio/sfx/engine.mp3",
+      "volume": 0.5,
+      "loop": false,
+      "desc": "Мотор скорой: запуск и ровный ход (синтез, _исходники/звук/build_sfx.py)"
+    },
+    "mus_menu": {
+      "file": "audio/music/mus_menu.ogg",
+      "volume": 0.8,
+      "loop": true,
+      "desc": "Музыка меню и дороги: тема-колыбельная (шкатулка, фортепиано, вибрафон, арфа, тёплый фон), D-dur 3/4, петля 80 с"
+    },
+    "mus_morning": {
+      "file": "audio/music/mus_morning.ogg",
+      "volume": 0.75,
+      "loop": true,
+      "desc": "Утро в комнате: тема на фортепиано с арпеджио и колокольчиком, петля 43.6 с"
+    },
+    "mus_night": {
+      "file": "audio/music/mus_night.ogg",
+      "volume": 0.7,
+      "loop": true,
+      "desc": "Ночь: тема на музыкальной шкатулке, вибрафон, низкий тёплый фон, петля 51.4 с; играет слоями (stems): чем больше серебряных нитей, тем больше инструментов",
+      "stems": [
+        "mus_night_base",
+        "mus_night_box",
+        "mus_night_cel",
+        "mus_night_str"
+      ]
+    },
+    "mus_dawn": {
+      "file": "audio/music/mus_dawn.ogg",
+      "volume": 0.8,
+      "loop": true,
+      "desc": "Финал «выздоровел»: рассвет, тема на фортепиано с челестой, арфой и колокольчиками, петля 72 с"
+    },
+    "mus_hospital": {
+      "file": "audio/music/mus_hospital.ogg",
+      "volume": 0.75,
+      "loop": true,
+      "desc": "Тревога и больница: тема в миноре на фортепиано, медленный вальс, петля 48 с"
+    },
+    "mus_tikhon": {
+      "file": "audio/music/mus_tikhon.ogg",
+      "volume": 0.7,
+      "loop": true,
+      "desc": "Тема Тихона: h-moll 96 bpm, челеста, маримба, пиццикато, петля 40 с"
+    },
+    "mus_game": {
+      "file": "audio/music/mus_game.ogg",
+      "volume": 0.65,
+      "loop": true,
+      "desc": "Мини-игры: лёгкая тема D-dur 104 bpm (маримба, арфа, пиццикато, шейкер), петля 36.9 с"
+    },
+    "mus_game_tense": {
+      "file": "audio/music/mus_game_tense.ogg",
+      "volume": 0.65,
+      "loop": true,
+      "desc": "Шашки (день 5): напряжённая тема h-moll 84 bpm (вибрафон, остинато фортепиано), петля 45.7 с"
+    },
+    "ui_hover": {
+      "file": "audio/sfx/ui_hover.mp3",
+      "volume": 0.22,
+      "loop": false,
+      "desc": "Наведение на кнопку: еле слышный щелчок дерева"
+    },
+    "ui_click": {
+      "file": "audio/sfx/ui_click.mp3",
+      "volume": 0.45,
+      "loop": false,
+      "desc": "Нажатие кнопки: деревянный «тук-тук»"
+    },
+    "page": {
+      "file": "audio/sfx/page.mp3",
+      "volume": 0.5,
+      "loop": false,
+      "desc": "Перелистывание страницы (дневник, титры)"
+    },
+    "tear": {
+      "file": "audio/sfx/tear.mp3",
+      "volume": 0.55,
+      "loop": false,
+      "desc": "Отрывной календарь: лист отрывается (титр дня)"
+    },
+    "pencil_scribble": {
+      "file": "audio/sfx/pencil_scribble.mp3",
+      "volume": 0.45,
+      "loop": false,
+      "desc": "Карандаш: короткая штриховка"
+    },
+    "daycard": {
+      "file": "audio/sfx/daycard.mp3",
+      "volume": 0.6,
+      "loop": false,
+      "desc": "Стингер титра дня: шкатулка и треугольник"
+    },
+    "creak_1": {
+      "file": "audio/sfx/creak_1.mp3",
+      "volume": 0.6,
+      "loop": false,
+      "desc": "Скрип половицы (синтез: прилипание-срыв + деревянные моды)"
+    },
+    "creak_2": {
+      "file": "audio/sfx/creak_2.mp3",
+      "volume": 0.6,
+      "loop": false,
+      "desc": "Скрип половицы (синтез: прилипание-срыв + деревянные моды)"
+    },
+    "creak_3": {
+      "file": "audio/sfx/creak_3.mp3",
+      "volume": 0.6,
+      "loop": false,
+      "desc": "Скрип половицы (синтез: прилипание-срыв + деревянные моды)"
+    },
+    "switch": {
+      "file": "audio/sfx/switch.mp3",
+      "volume": 0.5,
+      "loop": false,
+      "desc": "Щелчок выключателя лампы (CC0, OGA 100 SFX)"
+    },
+    "clock_strike": {
+      "file": "audio/sfx/clock_strike.mp3",
+      "volume": 0.45,
+      "loop": false,
+      "desc": "Бой настенных часов, один удар (синтез)"
+    },
+    "radio": {
+      "file": "audio/sfx/radio.ogg",
+      "volume": 0.5,
+      "loop": true,
+      "desc": "Радио бабы Вали за стенкой: вальс на гармошке, диктор, сигналы точного времени; приглушено стеной, петля 40 с"
+    },
+    "webharp_1": {
+      "file": "audio/sfx/webharp_1.mp3",
+      "volume": 0.8,
+      "loop": false,
+      "desc": "Колыбельная Тихона на паутинке (одна нить, 4 такта)"
+    },
+    "webharp_2": {
+      "file": "audio/sfx/webharp_2.mp3",
+      "volume": 0.8,
+      "loop": false,
+      "desc": "Колыбельная Тихона на паутинке (две нити: мелодия и бас, 4 такта)"
+    },
+    "webharp_3": {
+      "file": "audio/sfx/webharp_3.mp3",
+      "volume": 0.8,
+      "loop": false,
+      "desc": "Колыбельная Тихона на паутинке (три нити, вся тема, 8 тактов — мама узнаёт мелодию)"
+    },
+    "mus_night_base": {
+      "file": "audio/music/mus_night_base.ogg",
+      "volume": 1.0,
+      "loop": true,
+      "desc": "Ночь, слой «фон: пэд, бас, редкий вибрафон», петля 51.4 с, синхронна с остальными слоями"
+    },
+    "mus_night_box": {
+      "file": "audio/music/mus_night_box.ogg",
+      "volume": 1.0,
+      "loop": true,
+      "desc": "Ночь, слой «шкатулка — мелодия (1 нить)», петля 51.4 с, синхронна с остальными слоями"
+    },
+    "mus_night_cel": {
+      "file": "audio/music/mus_night_cel.ogg",
+      "volume": 1.0,
+      "loop": true,
+      "desc": "Ночь, слой «челеста — переливы (2 нити)», петля 51.4 с, синхронна с остальными слоями"
+    },
+    "mus_night_str": {
+      "file": "audio/music/mus_night_str.ogg",
+      "volume": 1.0,
+      "loop": true,
+      "desc": "Ночь, слой «струнные (3 нити)», петля 51.4 с, синхронна с остальными слоями"
+    },
+    "mus_credits": {
+      "file": "audio/music/mus_credits.ogg",
+      "volume": 0.8,
+      "loop": false,
+      "desc": "Титры: «Ниточка» — колыбельная Тихона, инструментальная аранжировка (паутинная арфа, струнные, челеста), 181 с"
+    },
+    "mus_credits_vocal": {
+      "file": "audio/music/mus_credits_vocal.ogg",
+      "volume": 0.8,
+      "loop": false,
+      "desc": "Необязательно: «Ниточка» с живым голосом (минус из docs/песня + вокал, тот же темп и старт). Если файл есть, титры играют его вместо mus_credits"
+    }
+  }
+}

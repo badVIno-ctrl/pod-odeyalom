@@ -1,0 +1,39 @@
+{
+ "model": "Qwen3-TTS-12Hz-1.7B (VoiceDesign — придумать голос по описанию; Base — клонировать голос по образцу)",
+ "language": "russian",
+ "voice_descriptions": {
+  "boy": "Boy, 8 years old, Russian. Gentle, quiet, slightly tired voice of a sick child; fairly low pitch for a child, husky; natural hesitations; realistic documentary-style recording, not an announcer.",
+  "mom": "Russian woman, 36 years old, a loving mother. Warm, soft mezzo-soprano voice with a gentle, slightly breathy texture; native Russian pronunciation; sounds like a real person recorded on a phone, sincere and unpolished, not an announcer.",
+  "spider": "A sly ancient fairy-tale creature, an old spider who talks: dry, raspy, crackling low half-whisper; drawn-out hissing on 's' and 'sh' sounds; slow, deliberate, mocking, playful and slightly menacing; native Russian speaker; theatrical but natural, like an old storyteller."
+ },
+ "references": {
+  "boy_calm": {
+   "wav": "refs/boy_calm.wav",
+   "text": "Мам, а можно я ещё немножко посижу у окна? Там снег идёт, такой красивый… А потом я сразу лягу, честно."
+  },
+  "boy_lively": {
+   "wav": "refs/boy_lively.wav",
+   "text": "Мам, мам, смотри! Там во дворе собака бегает прямо по сугробам! Пойдём скорее посмотрим?"
+  },
+  "mom_soft": {
+   "wav": "refs/mom_soft.wav",
+   "text": "Ну что ты, родной, не бойся. Сейчас я принесу тебе тёплого чаю с малиной, и ты немножко поспишь. Хорошо?"
+  },
+  "mom_outdoor": {
+   "wav": "refs/mom_outdoor.wav",
+   "text": "Осторожно, тут лёд под снегом! Давай руку, пойдём потихоньку, мы уже почти пришли."
+  },
+  "spider": {
+   "wav": "refs/spider.wav",
+   "text": "Тише, тише… Я никуда не тороплюсь. Я сижу в своём уголке и жду. Сыграем ещё разок, малыш?"
+  }
+ },
+ "which_reference": {
+  "boy_lively": "мальчик на улице, оживлённые реплики (B01)",
+  "boy_calm": "мальчик в постели, тихие реплики",
+  "mom_outdoor": "мама на улице, в пургу (M01–M03)",
+  "mom_soft": "мама в комнате",
+  "spider": "паук, все реплики"
+ },
+ "master_presets": "master.py: indoor — комната, outdoor — улица, spider — паук (чуть больше «комнаты» и низа); громкость −18 LUFS, mp3 112 кбит/с"
+}

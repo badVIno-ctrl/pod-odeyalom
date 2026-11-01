@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Голос мамы — озвучка</title>
+<link rel="stylesheet" href="voice/voice.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1><span class="dot"></span><span id="title">Голос мамы</span></h1>
+    <p class="sub" id="subtitle">приятный и ласковый женский, 38 лет</p>
+    <p class="attrs" id="attrs"></p>
+  </header>
+
+  <nav>
+    <a href="golos-malchika.html">Голос мальчика</a>
+    <a href="golos-mamy.html" aria-current="page">Голос мамы</a>
+    <a href="golos-vracha.html">Голос врача</a>
+    <a href="golos-pauka.html">Голос паука</a>
+  </nav>
+
+  <div class="bar">
+    <button type="button" class="primary" id="all">Проиграть все фразы</button>
+    <button type="button" id="stop">Стоп</button>
+  </div>
+
+  <div class="list" id="list"></div>
+
+  <footer>
+    Фразы озвучены заранее офлайн-движком VoiceEngine из папки <code>shorts</code>
+    и лежат в <code>audio/mom/</code> (8 файлов .wav, 48 кГц).
+  </footer>
+</div>
+
+<script src="voice/voice.js"></script>
+<script>
+initVoicePage({
+  "title": "Голос мамы",
+  "subtitle": "приятный и ласковый женский, 38 лет",
+  "attrs": "ж, 38, f5, спокойно, speed=0.98",
+  "accent": "#ff9ec4",
+  "lines": [
+    {
+      "text": "Тимка, отойди от стены, пожалуйста. Медленно.",
+      "file": "audio/mom/mom-01.wav",
+      "tone": null,
+      "duration": 4.59
+    },
+    {
+      "text": "Тише, солнышко, мама рядом. Дай посмотрю пальчик.",
+      "file": "audio/mom/mom-02.wav",
+      "tone": null,
+      "duration": 4.76
+    },
+    {
+      "text": "Ничего страшного, сейчас промоем водой и приложим холодное.",
+      "file": "audio/mom/mom-03.wav",
+      "tone": null,
+      "duration": 5.03
+    },
+    {
+      "text": "Я уже звоню врачу. Всё будет хорошо, слышишь?",
+      "file": "audio/mom/mom-04.wav",
+      "tone": null,
+      "duration": 4.13
+    },
+    {
+      "text": "Ты у меня самый смелый. Даже не заплакал.",
+      "file": "audio/mom/mom-05.wav",
+      "tone": "радостно",
+      "duration": 3.35
+    },
+    {
+      "text": "Не чеши, родной, а то будет щипать сильнее.",
+      "file": "audio/mom/mom-06.wav",
+      "tone": null,
+      "duration": 3.88
+    },
+    {
+      "text": "Банку оставим, доктор посмотрит, кто это такой.",
+      "file": "audio/mom/mom-07.wav",
+      "tone": null,
+      "duration": 4.45
+    },
+    {
+      "text": "Спи, я посижу рядом. Никто тебя не тронет.",
+      "file": "audio/mom/mom-08.wav",
+      "tone": "шёпотом",
+      "duration": 3.9
+    }
+  ]
+});
+</script>
+</body>
+</html>

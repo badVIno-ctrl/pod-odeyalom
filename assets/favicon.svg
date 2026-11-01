@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a3766"/>
+      <stop offset="1" stop-color="#151c35"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.45" r="0.5">
+      <stop offset="0" stop-color="#ffcf8a" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ffcf8a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c07a3c"/>
+      <stop offset="1" stop-color="#8a4f22"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <circle cx="36" cy="26" r="20" fill="url(#glow)"/>
+  <!-- нить -->
+  <path d="M36 0 L36 17" stroke="#e8eef8" stroke-width="1.4" stroke-linecap="round" opacity="0.8"/>
+  <!-- лапки -->
+  <g fill="none" stroke="#6e3d18" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M29 22 Q22 17 19 22"/>
+    <path d="M28.5 26 Q21 24 18 30"/>
+    <path d="M29 29.5 Q23 31 21 36"/>
+    <path d="M43 22 Q50 17 53 22"/>
+    <path d="M43.5 26 Q51 24 54 30"/>
+    <path d="M43 29.5 Q49 31 51 36"/>
+  </g>
+  <!-- тело -->
+  <ellipse cx="36" cy="25.5" rx="8.6" ry="8.2" fill="url(#body)" stroke="#4a2810" stroke-width="1.4"/>
+  <path d="M30.5 21.5 Q36 19 41.5 21.5" fill="none" stroke="#e7b277" stroke-width="1.3" stroke-linecap="round" opacity="0.8"/>
+  <!-- глаза -->
+  <circle cx="32.8" cy="26.5" r="3" fill="#fffaf0"/>
+  <circle cx="39.2" cy="26.5" r="3" fill="#fffaf0"/>
+  <circle cx="33.3" cy="27" r="1.55" fill="#1b1410"/>
+  <circle cx="38.7" cy="27" r="1.55" fill="#1b1410"/>
+  <circle cx="33.8" cy="26.3" r="0.55" fill="#ffffff"/>
+  <circle cx="39.2" cy="26.3" r="0.55" fill="#ffffff"/>
+  <!-- одеяло -->
+  <path d="M0 47 Q14 39 30 44 T64 42 L64 50 Q64 64 50 64 L14 64 Q0 64 0 50 Z" fill="#2f4f93"/>
+  <path d="M0 47 Q14 39 30 44 T64 42 L64 46.5 Q48 44.5 32 48.5 T0 51 Z" fill="#f1e6cf"/>
+  <g fill="#f2b766">
+    <path d="M14 56 l1.2 2.6 2.6 1.2 -2.6 1.2 -1.2 2.6 -1.2 -2.6 -2.6 -1.2 2.6 -1.2z" transform="translate(0 -3)"/>
+    <path d="M33 57 l1 2.1 2.1 1 -2.1 1 -1 2.1 -1 -2.1 -2.1 -1 2.1 -1z" transform="translate(0 -3)"/>
+    <path d="M50 54 l1.2 2.6 2.6 1.2 -2.6 1.2 -1.2 2.6 -1.2 -2.6 -2.6 -1.2 2.6 -1.2z" transform="translate(0 -1)"/>
+  </g>
+</svg>
